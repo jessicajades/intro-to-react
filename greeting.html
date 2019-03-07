@@ -14,13 +14,14 @@
  			return (
  				<div>
  					<h1>Hello {this.props.name}</h1>
+          <p>{this.props.city}</p>
  				</div>
  			);
  		}
  		}
 
  		ReactDOM.render(
- 			<Greeting name="Jess"/>, document.getElementById('app')
+ 			<Greeting name="Jess" city="Los Angeles"/>, document.getElementById('app')
  		);
      </script>
   </body>
